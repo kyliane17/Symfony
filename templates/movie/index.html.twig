@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MovieController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #40e0d0 ; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1> {{ controller_name }}! ✅</h1>
+    <h2> {{variable1}} 🌈  <h2>
+    <h3> {{variable2}} 🌭 <h3>
+    <h4> {{variable3}} 💦<h4>
+    <h5>{{variable4}} 🥓<h5>
+    <h6>{{variable5}}  👩🏾‍✈️ 🧑🏾‍✈️ 👨🏾‍✈️ 👩🏾‍🚀 🧑🏾‍🚀 👨🏾‍🚀 👩🏾‍⚖️ 🧑🏾‍⚖️ 👨🏾‍⚖️ 👰🏾‍♀️ 👰🏾 👰🏾‍♂️ 🤵🏾‍♀️ 🤵🏾 🤵🏾‍♂️ 👸🏾 🫅🏾 🤴🏾 🥷🏾 🦸🏾‍♀️ 🦸🏾 🦸🏾‍♂️ 🦹🏾‍♀️ 🦹🏾 <h6>
+
+    This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code><a href="{{ '/var/www/html/SymfonyCine/src/Controller/MovieController.php'|file_link(0) }}">src/Controller/MovieController.php</a></code></li>
+        <li>Your template at <code><a href="{{ '/var/www/html/SymfonyCine/templates/movie/index.html.twig'|file_link(0) }}">templates/movie/index.html.twig</a></code></li>
+    </ul>
+</div>
+{% endblock %}

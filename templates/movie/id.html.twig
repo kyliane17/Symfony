@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Fiche du film {% endblock %}
+
+{% block body %}
+
+{% if movieid == true %}
+     <ul>
+        {% for movie in movieid %}
+            <li>{{ [movieid]}}</li>
+        {% endfor %}
+    </ul>
+
+{% endif %}
+
+{% endblock %}
